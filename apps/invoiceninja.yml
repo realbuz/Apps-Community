@@ -45,7 +45,7 @@
           PUID: '1000'
           PGID: '1000'
 
-    - name: Create and start nextcloud container
+    - name: Create and start InvoiceNinja container
       docker_container:
         name: InvoiceNinja
         image: 'invoiceninja/invoiceninja'
